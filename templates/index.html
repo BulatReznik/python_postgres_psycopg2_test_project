@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Графики</title>
+
+</head>
+<body>
+<table border="1">
+    <tbody>
+    {% for device in devices %}
+     <div class='device'>
+                <tr>
+                    <td>{{ device[1] }}</td>
+                    <td>{{ device[2] }}</td>
+                    <td>{{ device[2] }}</td>
+                </tr>
+
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
